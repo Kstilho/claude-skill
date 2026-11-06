@@ -13,8 +13,8 @@ Coleção de skills para o [Claude Code](https://claude.com/claude-code).
 Copie a pasta da skill para a pasta de skills do Claude Code:
 
 ```bash
-git clone https://github.com/Kstilho/claude-skills.git
-cp -r claude-skills/motion-reel ~/.claude/skills/
+git clone https://github.com/Kstilho/claude-skill.git
+cp -r claude-skill/motion-reel ~/.claude/skills/
 ```
 
 Ou, para usar só em um projeto, copie para `.claude/skills/` dentro do projeto.
@@ -22,7 +22,7 @@ Ou, para usar só em um projeto, copie para `.claude/skills/` dentro do projeto.
 ## Estrutura
 
 ```
-claude-skills/
+claude-skill/
 ├── README.md
 └── motion-reel/
     └── SKILL.md
